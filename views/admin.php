@@ -13,6 +13,16 @@ $gites= new Gites();
     <title></title>
 </head>
 <body>
+
+<?php
+if($_SESSION['username'] !== ""){
+    $user = $_SESSION['username'];
+    // afficher un message
+    echo '<div class="alert alert-primary text-dark" role="alert">
+                          Bonjour '.$user.', vous êtes connecté(e)
+                          </div>';
+}
+?>
 <div class="container">
     <?php $gites->readCRUD(); ?>
 </div>

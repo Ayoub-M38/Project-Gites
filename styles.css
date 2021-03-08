@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.big-banner{
+    background-image: url("./images/julie-girard-Zh7uoRR3H7E-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+}

@@ -1,5 +1,8 @@
 <?php
-require_once './views/Partials/header.php'
+require_once './views/Partials/header.php';
+
+
+
 ?>
 
 <div class="text-center">
@@ -13,6 +16,7 @@ require_once './views/Partials/header.php'
     </p>
 </div>
 </div>
+
 
 <?php
 require_once './views/Partials/footer.php'

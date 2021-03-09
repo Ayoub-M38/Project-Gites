@@ -1,8 +1,9 @@
 <?php
-require '../classes/Gites.php';
-$gites= new Gites();
+require_once ('header.php');
+require_once ('footer.php');
+require '../classes/GitesModels.php';
+$Confdelete= new GitesModels();
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,30 +11,20 @@ $gites= new Gites();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title></title>
+
+    <title>Administration</title>
 </head>
 <body>
 
-<?php
-if($_SESSION['username'] !== ""){
-    $user = $_SESSION['username'];
-    // afficher un message
-    echo '<div class="alert alert-primary text-dark" role="alert">
-                          Bonjour '.$user.', vous êtes connecté(e)
-                          </div>';
-}
-?>
-<div class="container">
-    <?php $gites->readCRUD(); ?>
-</div>
+<?php $Confdelete->ConfirmdeleteGite(); ?>
 
 
 
 </body>
 <script
-        src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-        crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

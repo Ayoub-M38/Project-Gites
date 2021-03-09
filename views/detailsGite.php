@@ -1,6 +1,6 @@
 <?php
-require '../classes/Gites.php';
-$gites= new Gites();
+require '../classes/GitesModels.php';
+$details= new GitesModels();
 ?>
     <!DOCTYPE html>
     <html lang="fr">
@@ -9,11 +9,12 @@ $gites= new Gites();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <title></title>
+        <title>Détails</title>
     </head>
     <body>
     <div class="container">
-<?php $gites->detailsCRUD(); ?>
+<?php $details->detailsGite(); ?>
+    </div>
     </body>
     <script
         src="https://code.jquery.com/jquery-3.5.1.js"

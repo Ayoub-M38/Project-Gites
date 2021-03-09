@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1be12937-147b-40f6-8372-366506c22259" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/GitesModels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite1mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite2mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite3mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite4mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite5mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gite6mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ConfirmajouterGite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ConfirmdeleteGite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ConfirmupdateGite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/administration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/ajouterGite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/deleteGite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/detailsGite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/updateGite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project-Gites.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

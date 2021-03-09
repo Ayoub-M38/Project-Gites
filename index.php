@@ -1,5 +1,5 @@
 <?php
-require_once './views/Partials/header.php';
+require_once 'views/header.php';
 
 
 
@@ -19,5 +19,5 @@ require_once './views/Partials/header.php';
 
 
 <?php
-require_once './views/Partials/footer.php'
+require_once 'views/footer.php'
 ?>

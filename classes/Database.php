@@ -1,14 +1,14 @@
 <?php
-session_start();
 
 class Database
-{   private $host="localhost";
-    private $dbname="projet_gites";
-    private $user="root";
-    private $password="";
+{
+    private $host = 'localhost';
+    private $user = 'root';
+    private $password = '';
+    private $dbname = 'gites';
 
-
-    public function connect(){
+    public function connectPDO()
+    {
         try {
             $db= new PDO ('mysql:host='.$this->host.';dbname='.$this->dbname,$this->user,$this->password);
             $db-> exec ('SET NAMES "UTF 8"');
@@ -17,6 +17,5 @@ class Database
             echo 'Erreur :'. $e->getMessage();
             die();
         }
-
-    }
+}
 }

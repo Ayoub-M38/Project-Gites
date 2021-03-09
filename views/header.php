@@ -1,3 +1,4 @@
+<?php ?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -24,6 +25,12 @@
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="administration.php">Administration
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+
             <!--
             <li class="nav-item">
                 <a class="nav-link" href="#">Inscription</a>
@@ -35,3 +42,5 @@
         </ul>
     </div>
 </nav>
+
+

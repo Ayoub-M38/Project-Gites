@@ -1,6 +1,8 @@
 <?php
-require '../classes/Gites.php';
-$gites= new Gites();
+require_once ('header.php');
+require_once ('footer.php');
+require '../classes/GitesModels.php';
+$gites= new GitesModels();
 ?>
 
 <!DOCTYPE html>
@@ -10,13 +12,17 @@ $gites= new Gites();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title></title>
+
+    <title>Administration</title>
 </head>
 <body>
-<div class="container">
-    <?php $gites->createCRUD(); ?>
-</div>
+<div class="container col-lg-12 mt-4">
 
+    <h4>Tableau de bord</h4>
+<a href="ajouterGite.php" class="btn btn-outline-primary mt-2">Ajouter un gîte</a>
+</div>
+    <?php $gites->getallGites();
+    ?>
 
 
 </body>

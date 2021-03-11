@@ -1,9 +1,8 @@
 <?php
 
-require_once 'template/header.php';
-require 'GitesModels.php';
+include_once './views/partials/header.php';
+require './Models/GitesModels.php';
 $gite = new GitesModels();
-
 
 ?>
 
@@ -208,5 +207,7 @@ if(isset($_POST['validateadd'])){
     $gite->createGite();
     echo 'button pushed';
 }
+
+include_once './views/partials/footer.php';
 
 ?>
